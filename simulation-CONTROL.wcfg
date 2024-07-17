@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/ECE/earino_10o/Organosi/Xilinx_ISE-files/Askisi_1/testbench_Askisi1_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_signed" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="testbench_askisi1" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="28" />
+   <wvobject fp_name="/testbench_askisi1/clock_a" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">clock_a</obj_property>
+      <obj_property name="ObjectShortName">clock_a</obj_property>
+      <obj_property name="label">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/reset_a" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">reset_a</obj_property>
+      <obj_property name="ObjectShortName">reset_a</obj_property>
+      <obj_property name="label">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/reset_pc" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">reset_pc</obj_property>
+      <obj_property name="ObjectShortName">reset_pc</obj_property>
+      <obj_property name="label">Reset_PC</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/cout_flag_a" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">cout_flag_a</obj_property>
+      <obj_property name="ObjectShortName">cout_flag_a</obj_property>
+      <obj_property name="label">Cout-flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/ovf_flag_a" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">ovf_flag_a</obj_property>
+      <obj_property name="ObjectShortName">ovf_flag_a</obj_property>
+      <obj_property name="label">Ovf-flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/cntrl/pc_lden_c" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pc_lden_c</obj_property>
+      <obj_property name="ObjectShortName">pc_lden_c</obj_property>
+      <obj_property name="label">PC_LdEn</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff557f</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/ifst/pc/dout" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout[31:0]</obj_property>
+      <obj_property name="label">PC_out</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff557f</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/ifst/mem/spo" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">spo[31:0]</obj_property>
+      <obj_property name="ObjectShortName">spo[31:0]</obj_property>
+      <obj_property name="label">INSTRUCTION</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff557f</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/cntrl/rf_wrdata_sel_c" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rf_wrdata_sel_c</obj_property>
+      <obj_property name="ObjectShortName">rf_wrdata_sel_c</obj_property>
+      <obj_property name="label">RF_Wrdata_sel_c</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/cntrl/rf_b_sel_c" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rf_b_sel_c</obj_property>
+      <obj_property name="ObjectShortName">rf_b_sel_c</obj_property>
+      <obj_property name="label">RF_b_sel_c</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/cntrl/immed_ext_c" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">immed_ext_c[1:0]</obj_property>
+      <obj_property name="ObjectShortName">immed_ext_c[1:0]</obj_property>
+      <obj_property name="label">Immed_ext_c[1:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/cntrl/alu_bin_sel_c" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">alu_bin_sel_c</obj_property>
+      <obj_property name="ObjectShortName">alu_bin_sel_c</obj_property>
+      <obj_property name="label">Alu_Bin_sel_c</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/decst/immed" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">immed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">immed[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+      <obj_property name="label">Immed[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/decst/RegFile/ard1" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">ard1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ard1[4:0]</obj_property>
+      <obj_property name="label">RF_Ard1[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00aaff</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/decst/RegFile/ard2" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">ard2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ard2[4:0]</obj_property>
+      <obj_property name="label">RF_Ard2[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00aaff</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/decst/RegFile/awr" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">awr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">awr[4:0]</obj_property>
+      <obj_property name="label">RF_Awr[4:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00aaff</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/decst/RegFile/din" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">din[31:0]</obj_property>
+      <obj_property name="label">RF_Din[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00aaff</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/cntrl/we_rf_c" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">we_rf_c</obj_property>
+      <obj_property name="ObjectShortName">we_rf_c</obj_property>
+      <obj_property name="label">RF_WE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00aaff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/decst/RegFile/dout1" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dout1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout1[31:0]</obj_property>
+      <obj_property name="label">RF_Dout1[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00aaff</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/decst/RegFile/dout2" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">dout2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dout2[31:0]</obj_property>
+      <obj_property name="label">RF_Dout2[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00aaff</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/exec/alu_component/op" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">op[3:0]</obj_property>
+      <obj_property name="ObjectShortName">op[3:0]</obj_property>
+      <obj_property name="label">ALU_func[3:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff7700</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/exec/alu_component/out1" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">out1[31:0]</obj_property>
+      <obj_property name="label">ALU_Out[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff7700</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/exec/alu_component/zero_temp" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">zero_temp</obj_property>
+      <obj_property name="ObjectShortName">zero_temp</obj_property>
+      <obj_property name="label">Zero_flag</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffff00</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/memor/a" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">a[9:0]</obj_property>
+      <obj_property name="ObjectShortName">a[9:0]</obj_property>
+      <obj_property name="label">RAM_adr[9:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/memor/d" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">d[31:0]</obj_property>
+      <obj_property name="ObjectShortName">d[31:0]</obj_property>
+      <obj_property name="label">RAM_Din[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/cntrl/mem_wren_c" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">mem_wren_c</obj_property>
+      <obj_property name="ObjectShortName">mem_wren_c</obj_property>
+      <obj_property name="label">RAM_WE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/memor/spo" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">spo[31:0]</obj_property>
+      <obj_property name="ObjectShortName">spo[31:0]</obj_property>
+      <obj_property name="label">RAM_Dout[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench_askisi1/uut/load_mod/loadout" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">loadout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">loadout[31:0]</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+      <obj_property name="label">LoadOut[31:0]</obj_property>
+   </wvobject>
+</wave_config>
